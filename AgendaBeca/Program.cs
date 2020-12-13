@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace AgendaBeca
 {
+
     class Program
     {
+
         static void Main(string[] args)
         {
+            Agenda.Menu();
+
+            Console.Read();
         }
     }
 }
